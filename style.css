@@ -1,0 +1,134 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 40px;
+}
+div.container {
+  width: 80%;
+  background-image: linear-gradient(
+    to right,
+    rgba(129, 218, 242, 0.72),
+    rgba(245, 110, 204, 0.663)
+  );
+  margin: 0 auto;
+  padding: 30px -0px;
+  border-radius: 5px;
+}
+.logo {
+  display: flex;
+  width: 25%;
+  gap: 10px;
+  align-items: center;
+}
+div.wrapper {
+  background-color: rgba(237, 239, 241, 255);
+  padding: 15px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+nav.nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+li {
+  list-style-type: none;
+}
+
+ul.navigation {
+  display: flex;
+}
+
+ul.navigation li {
+  margin-left: 25px;
+}
+
+ul.navigation li a {
+  color: black;
+}
+
+ul.navigation li button {
+  color: white;
+  background-color: black;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.intro-image img {
+  width: 200px;
+}
+.intro-image {
+  background-image: linear-gradient(
+    to right,
+    rgba(129, 218, 242, 0.72),
+    rgba(245, 110, 204, 0.663)
+  );
+}
+
+div.intro {
+  padding: 90px;
+}
+
+div.intro-text {
+  margin-left: 40px;
+  width: 370px;
+}
+div.intro-text h1 {
+  margin-bottom: 15px;
+}
+div.intro-text p {
+  color: gray;
+}
+
+div.about {
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 90px 0px;
+  margin-bottom: 70px;
+  display: flex;
+}
+div.about h1 {
+  margin-bottom: 15px;
+}
+div.about p {
+  font-size: 15px;
+  color: gray;
+}
+
+div.about-text {
+  width: 380px;
+}
+
+div.about-skills span {
+  display: flex;
+}
+
+div.about-skills span li {
+  margin: 5px;
+  text-transform: uppercase;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  padding: 3px;
+  font-size: 13px;
+  font-weight: 600;
+}
